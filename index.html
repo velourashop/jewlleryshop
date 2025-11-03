@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simple Product Page</title>
+<title>Veloura Jewellery Shop</title>
 <style>
   body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: #fff8f9;
     margin: 0;
     padding: 0;
+  }
+  header {
+    background-color: #b30059;
+    color: white;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
   }
   .main-image {
     width: 80%;
@@ -31,7 +39,7 @@
     background: white;
     border-radius: 10px;
     padding: 10px;
-    width: 150px;
+    width: 160px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
   .product img {
@@ -41,10 +49,10 @@
   .price {
     font-weight: bold;
     margin: 8px 0;
-    color: #333;
+    color: #b30059;
   }
   button {
-    background-color: #007bff;
+    background-color: #b30059;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -52,16 +60,40 @@
     cursor: pointer;
   }
   button:hover {
-    background-color: #0056b3;
+    background-color: #800040;
   }
 </style>
 </head>
 <body>
 
-  <h1>Winter Collection</h1>
+  <header>💎 Veloura Jewellery Shop 💎</header>
 
   <!-- Bari Tasveer -->
-  <img src="https://via.placeholder.com/500x300" alt="Main Product" class="main-image">
+  <img src="https://i.imgur.com/1vXz3tD.jpg" alt="Main Jewellery" class="main-image">
 
   <!-- Chhoti Tasveerain with Price & Button -->
   <div class="gallery">
+    <div class="product">
+      <img src="https://i.imgur.com/Yv3vKkQ.jpg" alt="Necklace 1">
+      <p class="price">Rs. 2500</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/k8hG0x2.jpg" alt="Bracelet 2">
+      <p class="price">Rs. 1800</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/PG6x0hF.jpg" alt="Earrings 3">
+      <p class="price">Rs. 3200</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/d0c2S36.jpg" alt="Ring 4">
+      <p class="price">Rs. 2100</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+</body>
+</html>
